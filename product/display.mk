@@ -18,4 +18,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapminfree=512k \
     dalvik.vm.heapmaxfree=8m
 
-$(call inherit-product, frameworks/native/build/phone-xxxhdpi-4096-hwui-memory.mk)
+#$(call inherit-product, frameworks/native/build/phone-xxxhdpi-4096-hwui-memory.mk)

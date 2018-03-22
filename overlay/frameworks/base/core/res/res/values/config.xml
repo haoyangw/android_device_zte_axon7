@@ -224,7 +224,7 @@
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
-    <integer name="config_deviceHardwareKeys">83</integer>
+    <!--integer name="config_deviceHardwareKeys">83</integer-->
 
     <!--  Maximum number of supported users -->
     <integer name="config_multiuserMaximumUsers">2</integer>
@@ -309,5 +309,5 @@
     <bool name="config_carrier_wfc_ims_available">true</bool>
 
     <!-- Whether notify fingerprint client of successful cancelled authentication -->
-    <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool>
+    <!--bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool-->
 </resources>
