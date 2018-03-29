@@ -280,6 +280,9 @@
     -->
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
 
+    <!-- Enable doze power saving mode -->
+    <bool name="config_enableAutoPowerModes">true</bool>
+
     <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
 
     <!-- Wheter to enable doze always on -->
