@@ -16,28 +16,20 @@
 #
 
 # Inherit from the common Open Source product configuration
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
+$(call inherit-product, device/zte/axon7/aosp_axon7.mk)
 
-# Inherit from ailsa_ii device
-$(call inherit-product, device/zte/axon7/device.mk)
-$(call inherit-product-if-exists, vendor/zte/axon7/axon7-vendor.mk)
+# Inherit some common DirtyUnicorns stuff.
+$(call inherit-product, vendor/du/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_axon7
+PRODUCT_NAME := du_axon7
 PRODUCT_DEVICE := axon7
 PRODUCT_BRAND := ZTE
 PRODUCT_MODEL := ZTE Axon 7
 PRODUCT_MANUFACTURER := ZTE
 
-# Boot animation
-TARGET_BOOT_ANIMATION_RES := 1080
-
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="P996A03_O" \
     BUILD_FINGERPRINT="google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys" \
     PRIVATE_BUILD_DESC="P996A03_O-user 8.0.0 OPR1.170623.032 61 release-keys"
-
-PRODUCT_PACKAGES += \
-    Launcher3
-

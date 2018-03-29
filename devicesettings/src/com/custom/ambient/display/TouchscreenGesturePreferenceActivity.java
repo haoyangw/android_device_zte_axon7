@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.device;
+package com.custom.ambient.display;
 
 import android.os.Bundle;
 

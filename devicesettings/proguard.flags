@@ -1,4 +1,4 @@
--keep class org.lineageos.settings.device.* {
+-keep class com.custom.ambient.display.* {
   *;
 }
 
