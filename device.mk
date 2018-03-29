@@ -102,6 +102,18 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mtp,adb
 
+# For "make bacon" to work properly
+PRODUCT_PACKAGES += mksquashfsimage.sh \
+		    imgdiff \
+		    bsdiff \
+		    shflags \
+		    aapt \
+		    mkf2fuserimg.sh \
+		    img2simg \
+		    mksquashfs \
+		    delta_generator \
+		    brillo_update_payload
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-service \
