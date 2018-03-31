@@ -204,8 +204,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
 # Extended Filesystem Support
-TARGET_EXFAT_DRIVER := exfat
-TARGET_KERNEL_HAVE_EXFAT := true
+TARGET_EXFAT_DRIVER := sdfat
 
 # Releasetools
 TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_axon7
