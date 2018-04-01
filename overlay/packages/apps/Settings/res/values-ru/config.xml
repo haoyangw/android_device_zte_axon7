@@ -239,19 +239,19 @@
     <string name="lock_directly_show_password">Сразу предлагать ввод пароля</string>
     <string name="lock_directly_show_pattern">Сразу предлагать ввод граф.ключа</string>
     <string name="lock_directly_show_pin">Сразу предлагать ввод PIN-кода</string>
-    <string name="lock_directly_show_password_summary">Пропускать проведение пальцем вверх для разблокировки экрана и сразу же переходить к вводу пароля</string>
+    <string name="lock_directly_show_summary">Пропускать проведение пальцем вверх для разблокировки экрана и сразу же переходить к вводу пароля</string>
 
     <!-- System theme -->
-    <string name="theme_category_title">Системная тема</string>
+    <string name="theme_category_title">Тема и стиль интерфейса</string>
     <string name="accent_picker_dialog_title">Выберите цвет темы</string>
     <string name="theme_accent_picker_title">Цвет темы</string>
-    <string name="theme_accent_picker_summary">Выберите цвет темы системы</string>
+    <string name="theme_accent_picker_summary">Выберите цвет темы интерфейса</string>
     <string name="theme_accent_picker_default">По умолчанию</string>
 
     <!-- Extensions categories -->
     <string name="recents_category_summary">Настройки меню надавних приложений</string>
     <string name="status_bar_category_summary">Настройки статусбара</string>
-    <string name="notifications_panel_category_summary">Настройки тайлов и уведомлений</string>
+    <string name="notifications_panel_category_summary">Настройки плиток и уведомлений</string>
     <string name="system_category_summary">Разные настройки системы</string>
     <string name="lockscreen_category_summary">Настройки экрана блокировки</string>
     <string name="navigation_category_summary">Настройки панели навигации</string>
