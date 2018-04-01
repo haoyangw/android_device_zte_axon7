@@ -403,6 +403,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-impl
 
+# Prebuild
+PRODUCT_PACKAGES += \
+    Dialer2 \
+    Updates2
+
 # Wifi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service
