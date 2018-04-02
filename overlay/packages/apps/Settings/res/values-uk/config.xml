@@ -255,4 +255,14 @@
     <string name="system_category_summary">Різні налаштування системи</string>
     <string name="lockscreen_category_summary">Налаштування екрану блокування</string>
     <string name="navigation_category_summary">Налаштування панелі навігації</string>
+
+    <!-- Force authorize substratum packages -->
+    <string name="force_authorize_substratum_packages_title">Примусове встановлення теми</string>
+    <string name="force_authorize_substratum_packages_summary">Дозволити встановлення тем з невідомих джерел</string>
+   
+    <!-- Manage applications: show substratum overlays -->
+    <string name="filter_substratum_apps">Додаток Substratum</string>
+    <string name="menu_show_substratum">Показувати</string>
+    <string name="menu_hide_substratum">Не показувати</string>
+    <string name="substratum_installed_title">Системні теми недоступні, тому що встановлені нашарування Substratum. Видаліть всі нашарування для системних додатків щоб продовжити.</string>
 </resources>
