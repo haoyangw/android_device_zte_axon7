@@ -264,5 +264,5 @@
     <string name="filter_substratum_apps">Приложение Substratum</string>
     <string name="menu_show_substratum">Отображать</string>
     <string name="menu_hide_substratum">Не отображать</string>
-    <string name="substratum_installed_title">Системные темы недоступны, потому что установлены наслоения Substratum. Удалите все все наслоения для системных приложений чтобы продолжить.</string>
+    <string name="substratum_installed_title">Системные темы недоступны, потому что установлены наслоения Substratum. Удалите все наслоения для системных приложений чтобы продолжить.</string>
 </resources>
