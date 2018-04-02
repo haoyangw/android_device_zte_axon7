@@ -255,4 +255,14 @@
     <string name="system_category_summary">Разные настройки системы</string>
     <string name="lockscreen_category_summary">Настройки экрана блокировки</string>
     <string name="navigation_category_summary">Настройки панели навигации</string>
+
+    <!-- Force authorize substratum packages -->
+    <string name="force_authorize_substratum_packages_title">Принудительная установка темы</string>
+    <string name="force_authorize_substratum_packages_summary">Разрешать установку тем из неизвестных источников</string>
+
+    <!-- Manage applications: show substratum overlays -->
+    <string name="filter_substratum_apps">Приложение Substratum</string>
+    <string name="menu_show_substratum">Отображать</string>
+    <string name="menu_hide_substratum">Не отображать</string>
+    <string name="substratum_installed_title">Системные темы недоступны, потому что установлены наслоения Substratum. Удалите все все наслоения для системных приложений чтобы продолжить.</string>
 </resources>
