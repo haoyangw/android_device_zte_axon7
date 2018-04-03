@@ -17,7 +17,7 @@
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Icon pack -->
+    <!-- Пакет значков -->
     <string name="default_iconpack" translatable="false">Стоковый</string>
     <string name="default_iconpack_title">По умолчанию</string>
     <string name="icons_pack_name">Наборы значков</string>
@@ -53,8 +53,8 @@
     <string name="reset_hidden_apps">Сбросить все</string>
     <string name="reset_hidden_apps_done">Скрытые приложения теперь доступны</string>
 
-    <!-- Swipe up indicator -->
-    <string name="show_swipeup_arrow">Значек открытия</string>
+    <!-- Swipe up indicator (значОк) -->
+    <string name="show_swipeup_arrow">Значок открытия</string>
     <string name="show_swipeup_arrow_summary">Отображать стрелку открытия меню приложений</string>
 
     <string name="pref_show_clock_weather">Погода и дата на домашнем экране</string>
@@ -63,7 +63,7 @@
     <string name="pref_show_clock_weather_clock_only">Отображать только дату</string>
     <string name="pref_show_clock_weather_weather_only">Отображать только погоду</string>
 
-    <!-- Hide/Show search bars -->
+    <!-- Показать/скрыть строки поиска -->
     <string name="bottom_search_bar_title">Нижняя панель поиска</string>
     <string name="bottom_search_bar_summary">Отображать нижнюю панель поиска под значками</string>
     <string name="top_search_bar_title">Верхняя панель поиска</string>
@@ -71,4 +71,21 @@
 
     <string name="desktop_show_label_title">Названия приложений</string>
     <string name="desktop_show_label_summary">Отображать названия приложений под значками</string>
+
+    <!-- Колонки и строки -->
+    <string name="grid_category_title">Расположение значков</string>
+    <string name="number_of_columns_title">Количество колонок</string>
+    <string name="number_of_rows_title">Количество строк</string>
+    <string name="number_of_hotseat_title">Кол-во значков нижней панели</string>
+
+    <string name="num_default">По умолчанию</string>
+    <string name="num_three">Три</string>
+    <string name="num_four">Четыре</string>
+    <string name="num_five">Пять</string>
+    <string name="num_six">Шесть</string>
+    <string name="num_seven">Семь</string>
+
+    <!-- Разное, где не хватало перевода (Ыыыы) -->
+    <string name="action_edit">Изменить</string>
+    <string name="icon_shape_rounded_square">Округлённый квадрат</string>
 </resources>
