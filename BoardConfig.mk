@@ -221,9 +221,6 @@ TARGET_LD_SHIM_LIBS := \
     /system/vendor/lib/libmmcamera_ppeiscore.so|/system/vendor/lib/libshim_camera.so \
     /system/vendor/lib/libFNVfbEngineHAL.so|/system/vendor/lib/libshim_camera.so
 
-# Timeservice
-BOARD_USES_QC_TIME_SERVICES := true
-
 # Wifi
 BOARD_HAS_QCOM_WLAN := true
 BOARD_HAS_QCOM_WLAN_SDK := true
