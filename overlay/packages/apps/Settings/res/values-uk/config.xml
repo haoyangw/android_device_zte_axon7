@@ -265,4 +265,46 @@
     <string name="menu_show_substratum">Показувати</string>
     <string name="menu_hide_substratum">Не показувати</string>
     <string name="substratum_installed_title">Системні теми недоступні, тому що встановлені нашарування Substratum. Видаліть всі нашарування для системних додатків щоб продовжити.</string>
+
+   <!-- Tiles animation style -->
+   <string name="qs_tile_animation_category">Анімація щвидких надаштувань</string>
+   <string name="qs_tile_animation_style_title">Стиль анімації плиток</string>
+   <string name="qs_tile_animation_duration_title">Час анімації плиток</string>
+   <string name="qs_set_animation_style">%1$s</string>
+   <string name="qs_set_animation_duration">%1$s</string>
+   <string name="qs_tile_animation_interpolator_title">Інтерполяція анімації плиток</string>
+   <string name="qs_tile_animation_style_off">Без анімації</string>
+   <string name="qs_tile_animation_style_flip">Переворот</string>
+   <string name="qs_tile_animation_style_rotate">Обертання</string>
+   <string name="qs_tile_animation_duration_low">Повільна</string>
+   <string name="qs_tile_animation_duration_default">За замовчуванням</string>
+   <string name="qs_tile_animation_duration_fast">Швидка</string>
+   <string name="qs_tile_animation_interpolator_linearInterpolator">Лінійно</string>
+   <string name="qs_tile_animation_interpolator_accelerateInterpolator">Прискорення</string>
+   <string name="qs_tile_animation_interpolator_decelerateInterpolator">Сповільнення</string>
+   <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Прискорення і сповільнення</string>
+   <string name="qs_tile_animation_interpolator_bounceInterpolator">Відскок</string>
+   <string name="qs_tile_animation_interpolator_overshootInterpolator">Вилітання</string>
+   <string name="qs_tile_animation_interpolator_anticipateInterpolator">Прискорення</string>
+   <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Прискорення/вилітання</string>
+
+   <!-- Default USB configuration -->
+   <string name="select_default_usb_configuration_title">Режим при підключенні USB</string>
+   <string name="select_default_usb_configuration_dialog_title">Оберіть режим USB</string>
+   <string name="default_usb_configuration" translatable="false" >за замовчуванням</string>
+   <string name="select_usb_default_confguration_warning">УВАГА: Режим USB за замовчуванням увімкнений також, коли пристрій заблокований!!\n\nВи дійсно хочете увімкнути цей режим?</string>
+  
+   <!-- USB configuration names for Developer Settings.+ This can be overridden by devices with additional USB configurations. -->
+   <string-array name="default_usb_configuration_titles">
+       <item>За замовчуванням</item>
+       <item>Тільки заряджання</item>
+       <item>Передача файлів MTP</item>
+       <item>Передача зображень PTP</item>
+       <item>MIDI</item>
+   </string-array>
+
+   <!-- USB paranoia mode -->
+   <string name="usb_paranoia_connect_title">Захист підключення USB</string>
+   <string name="usb_paranoia_connect_summary">Лишити тільки зарядку і відключити налагодження, коли пристрій заблокований</string>
+   <string name="usb_category_title">USB</string> </resources>
 </resources>
