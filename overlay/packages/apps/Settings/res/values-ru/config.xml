@@ -265,4 +265,53 @@
     <string name="menu_show_substratum">Отображать</string>
     <string name="menu_hide_substratum">Не отображать</string>
     <string name="substratum_installed_title">Системные темы недоступны, потому что установлены наслоения Substratum. Удалите все наслоения для системных приложений чтобы продолжить.</string>
+
+    <!-- Tiles animation style  -->
+    <string name="qs_tile_animation_category">Анимация быстрых настроек</string>
+    <string name="qs_tile_animation_style_title">Стиль анимации плиток</string>
+    <string name="qs_tile_animation_duration_title">Длительность анимации плиток</string>
+    <string name="qs_tile_animation_style_off">без анимации</string>
+    <string name="qs_tile_animation_style_flip">переворот</string>
+    <string name="qs_tile_animation_style_rotate">вращение</string>
+    <string name="qs_tile_animation_duration_low">медленная</string>
+    <string name="qs_tile_animation_duration_default">по умолчанию</string>
+    <string name="qs_tile_animation_duration_fast">быстрая</string>
+    <string name="qs_set_animation_style">%1$s</string>
+    <string name="qs_set_animation_duration">%1$s</string>
+    <string name="qs_tile_animation_interpolator_title">Интерполяция анимации плиток</string>
+    <string name="qs_tile_animation_style_off">Без анимации</string>
+    <string name="qs_tile_animation_style_flip">Переворот</string>
+    <string name="qs_tile_animation_style_rotate">Вращение</string>
+    <string name="qs_tile_animation_duration_low">Медленная</string>
+    <string name="qs_tile_animation_duration_default">По умолчанию</string>
+    <string name="qs_tile_animation_duration_fast">Быстрая</string>
+    <string name="qs_tile_animation_interpolator_linearInterpolator">Линейно</string>
+    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Ускорение</string>
+    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Замедление</string>
+    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Ускорение и замедление</string>
+    <string name="qs_tile_animation_interpolator_bounceInterpolator">Отскок</string>
+    <string name="qs_tile_animation_interpolator_overshootInterpolator">Вылет</string>
+    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Ускорение</string>
+    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Ускорение/вылет</string>
+
+    <!-- Default USB configuration -->
+    <string name="select_default_usb_configuration_title">Конфигурация при подключении USB</string>
+    <string name="select_default_usb_configuration_dialog_title">Выберите конфигурацию USB</string>
+    <string name="default_usb_configuration" translatable="false" >по умолчанию</string>
+    <string name="select_usb_default_confguration_warning">ВНИМАНИЕ: Конфигурация USB по умолчанию включена также, когда устройство заблокировано!!\n\nВы действительно хотите включить эту конфигурацию?</string>
+
+    <!-- USB configuration names for Developer Settings.
+    This can be overridden by devices with additional USB configurations. -->
+    <string-array name="default_usb_configuration_titles">
+        <item>По умолчанию</item>
+        <item>Только зарядка</item>
+        <item>Передача файлов MTP</item>
+        <item>Передача изображений PTP</item>
+        <item>MIDI</item>
+    </string-array>
+
+    <!-- USB paranoia mode -->
+    <string name="usb_paranoia_connect_title">Защита подключения USB</string>
+    <string name="usb_paranoia_connect_summary">Оставить только зарядку и отключить отладку когда устройство заблокировано</string>
+    <string name="usb_category_title">USB</string>
 </resources>
