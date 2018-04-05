@@ -51,4 +51,22 @@
     <string name="quick_settings_theme_tile_color_white">Белый</string>
     <string name="theme_info_title">Что это такое??</string>
     <string name="theme_info_message">Тайл темы - это уникальная, но простая в использовании плитка, которая позволяет пользователю изменять системную тему или стиль.\n\nЧтобы переключаться между темой и стилем, просто удерживайте плитку, а затем снова нажмите на нее, чтобы выбрать одну из предложенных опций.</string>
+
+    <!-- Always on Display Tile -->
+    <string name="quick_settings_always_on_display_label">Автоматич. включение экрана</string>
+    <!-- Content description of the ambient display tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_always_on_display_off">Выключить автоматич. включение экрана.</string>
+    <!-- Content description of the ambient display tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_always_on_display_on">Включить автоматич. включение экрана.</string>
+    <!-- Announcement made when ambient display changes to off (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_always_on_display_changed_off">Автоматич. включение экрана выключено.</string>
+    <!-- Announcement made when ambient display changes to on (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_always_on_display_changed_on">Автоматич. включение экрана включено.</string>
+
+    <!-- Ambient display QS tile -->
+    <string name="quick_settings_ambient_display_label">Внешний экран</string>
+    <string name="accessibility_quick_settings_ambient_display_off">Выключить внешний экран.</string>
+    <string name="accessibility_quick_settings_ambient_display_on">Включить внешний экран.</string>
+    <string name="accessibility_quick_settings_ambient_display_changed_off">Внешний экран выключен.</string>
+    <string name="accessibility_quick_settings_ambient_display_changed_on">Внешний экран включен.</string>
 </resources>
