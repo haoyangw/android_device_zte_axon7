@@ -51,4 +51,21 @@
     <string name="quick_settings_theme_tile_color_white">Білий</string>
     <string name="theme_info_title">Що це?</string>
     <string name="theme_info_message">Тайл теми - це унікальна, але проста в користування плитка, котра дозволяє користувачу змінювати системну тему чи стиль.\n\nЩоб перемикатися між темою та стилем, просто утримуйте плитку, а потім знову натисніть на неї, щоб обрати одну із запропонованих опцій.</string>
+
+    <!-- Always on Display Tile -->
+    <string name="quick_settings_always_on_display_label">Автоувімкнення екрану</string>
+    <!-- Content description of the ambient display tile in quick settings when off (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_always_on_display_off">Вимкнутт автоувімкнення екрану.</string>
+    <!-- Content description of the ambient display tile in quick settings when on (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_always_on_display_on">Увімкнути автоувімкнення екрану.</string>
+    <!-- Announcement made when ambient display changes to off (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_always_on_display_changed_off">Автоувімкнення екрану вимкнено.</string>
+    <!-- Announcement made when ambient display changes to on (not shown on the screen). [CHAR LIMIT=NONE] -->
+    <string name="accessibility_quick_settings_always_on_display_changed_on">Автоувімкнення екрану увімкнено.</string>
+    <!-- Ambient display QS tile -->
+    <string name="quick_settings_ambient_display_label">Зовнішній екран</string>
+    <string name="accessibility_quick_settings_ambient_display_off">Вимкнути зовнішній екран.</string>
+    <string name="accessibility_quick_settings_ambient_display_on">Увімкнути зовнішній екран.</string>
+    <string name="accessibility_quick_settings_ambient_display_changed_off">Зовнішній екран вимкнутий.</string>
+    <string name="accessibility_quick_settings_ambient_display_changed_on">Зовнішній екран увімкнено.</string>
 </resources>

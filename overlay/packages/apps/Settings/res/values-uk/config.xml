@@ -294,7 +294,7 @@
    <string name="default_usb_configuration" translatable="false" >за замовчуванням</string>
    <string name="select_usb_default_confguration_warning">УВАГА: Режим USB за замовчуванням увімкнений також, коли пристрій заблокований!!\n\nВи дійсно хочете увімкнути цей режим?</string>
   
-   <!-- USB configuration names for Developer Settings.+ This can be overridden by devices with additional USB configurations. -->
+   <!-- USB configuration names for Developer Settings. This can be overridden by devices with additional USB configurations. -->
    <string-array name="default_usb_configuration_titles">
        <item>За замовчуванням</item>
        <item>Тільки заряджання</item>
@@ -307,4 +307,21 @@
    <string name="usb_paranoia_connect_title">Захист підключення USB</string>
    <string name="usb_paranoia_connect_summary">Лишити тільки зарядку і відключити налагодження, коли пристрій заблокований</string>
    <string name="usb_category_title">USB</string> </resources>
+
+   <!-- Screenshot editor -->
+   <string name="screenshot_edit_app">Редактор скріншотів</string>
+   <string name="screenshot_edit_app_summary">Оберіть додаток для редагування скріншотів</string>
+   <string name="screenshot_edit_app_no_editor">Немає додатку для редагування зображень</string>
+
+   <!-- QS footer warnings -->
+   <string name="qs_footer_warnings_title">Попередження знизу панелі перемикачів</string>
+   <string name="qs_footer_warnings_summary">Показувати попередження під панеллю швидких перемикачів, коли ваша мережа переглядається зовнішніми додатками або VPN</string>
+
+   <!-- QuickSettings Panel Transparency -->
+   <string name="qs_panel_alpha_title">Рівень прозорості</string>
+   <string name="qs_opacity_category">Прозорість панелі швидких налаштувань</string>
+
+   <!-- Proximity wake -->
+   <string name="proximity_wake_title">Режим "в кишені"</string>
+   <string name="proximity_wake_summary">Перевіряти датчик наближення перед пробудженням екрану</string>
 </resources>
