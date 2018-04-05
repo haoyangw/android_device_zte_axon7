@@ -270,12 +270,6 @@
     <string name="qs_tile_animation_category">Анимация быстрых настроек</string>
     <string name="qs_tile_animation_style_title">Стиль анимации плиток</string>
     <string name="qs_tile_animation_duration_title">Длительность анимации плиток</string>
-    <string name="qs_tile_animation_style_off">без анимации</string>
-    <string name="qs_tile_animation_style_flip">переворот</string>
-    <string name="qs_tile_animation_style_rotate">вращение</string>
-    <string name="qs_tile_animation_duration_low">медленная</string>
-    <string name="qs_tile_animation_duration_default">по умолчанию</string>
-    <string name="qs_tile_animation_duration_fast">быстрая</string>
     <string name="qs_set_animation_style">%1$s</string>
     <string name="qs_set_animation_duration">%1$s</string>
     <string name="qs_tile_animation_interpolator_title">Интерполяция анимации плиток</string>
