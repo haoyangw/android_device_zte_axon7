@@ -323,15 +323,15 @@
     <string name="qs_opacity_category">Прозрачность панели быстрых настроек</string>
 
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Режим "в кармане"</string>
-    <string name="proximity_wake_summary">Проверять датчик приближения перед пробуждением экрана</string>
+    <string name="proximity_wake_title">Предотвращать случайное включение</string>
+    <string name="proximity_wake_summary">Проверка датчика приближения перед включением экрана</string>
     <string name="center_clock">По центру</string>
 
     <!-- System default animation -->
     <string name="system_default_animation_title">Стиль анимации Android P</string>
-    <string name="system_default_animation_summary">Включить стиль анимации из Android P \"По умолчанию\"</string>
+    <string name="system_default_animation_summary">Включить стиль анимации из Android P</string>
 
     <!-- Lockscreen visualizer -->
     <string name="lockscreen_visualizer_title">Показать визуализацию музыки</string>
-    <string name="lockscreen_visualizer_summary">Отображать живой дизайн на заблокированном экране во время воспроизведения музыки</string>
+    <string name="lockscreen_visualizer_summary">Показать эффекты на экране блокировки, когда играет музыка</string>
 </resources>

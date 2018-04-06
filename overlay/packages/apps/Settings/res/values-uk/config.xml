@@ -325,4 +325,12 @@
    <string name="proximity_wake_title">Режим "в кишені"</string>
    <string name="proximity_wake_summary">Перевіряти датчик наближення перед пробудженням екрану</string>
    <string name="center_clock">По центру</string>
+  
+   <!-- System default animation -->
+   <string name="system_default_animation_title">Стиль анімації Android P</string>
+   <string name="system_default_animation_summary">Увімкнути стиль анімації з Android P</string>
+
+   <!-- Lockscreen visualizer -->
+   <string name="lockscreen_visualizer_title">Показати візуалізацію музики</string>
+   <string name="lockscreen_visualizer_summary">Показувати анімацію на заблокованому екрані під час програвання музики</string>
 </resources>
