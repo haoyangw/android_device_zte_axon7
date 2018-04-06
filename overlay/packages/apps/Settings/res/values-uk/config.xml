@@ -324,4 +324,5 @@
    <!-- Proximity wake -->
    <string name="proximity_wake_title">Режим "в кишені"</string>
    <string name="proximity_wake_summary">Перевіряти датчик наближення перед пробудженням екрану</string>
+   <string name="center_clock">По центру</string>
 </resources>
