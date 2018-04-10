@@ -69,4 +69,5 @@
   <string name="accessibility_quick_settings_ambient_display_on">Активный дисплей включен.</string>
   <string name="accessibility_quick_settings_ambient_display_changed_off">Активный дисплей выключен.</string>
   <string name="accessibility_quick_settings_ambient_display_changed_on">Активный дисплей включен.</string>
+  <string name="quick_settings_dnd_label" msgid="8735855737575028208">"Не\nбеспокоить"</string>
 </resources>
