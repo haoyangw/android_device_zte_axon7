@@ -1,4 +1,3 @@
-#
 # Copyright (C) 2016 The CyanogenMod Project
 # Copyright (C) 2017 The LineageOS Project
 #
@@ -13,31 +12,28 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-#
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from ailsa_ii device
+# Inherit from oneplus3 device
 $(call inherit-product, device/zte/axon7/device.mk)
 
-# Inherit some common AEX stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+# Inherit some common Lineage stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_axon7
+PRODUCT_NAME := lineage_axon7
 PRODUCT_DEVICE := axon7
 PRODUCT_BRAND := ZTE
 PRODUCT_MODEL := ZTE Axon 7
 PRODUCT_MANUFACTURER := ZTE
 EXTENDED_BUILD_TYPE := OFFICIAL
 
-# Boot animation
-TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_VENDOR := zte
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME="P996A03_O" \
-    BUILD_FINGERPRINT="google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys" \
-    PRIVATE_BUILD_DESC="P996A03_O-user 8.0.0 OPR1.170623.032 61 release-keys"
-
+    PRODUCT_NAME="P996A01_N" \
+    BUILD_FINGERPRINT="ZTE/P996A01_N/ailsa_ii:7.0/NRD90M/20170128.052618:user/release-keys" \
+    PRIVATE_BUILD_DESC="P996A01_N-user 7.0 NRD90M 20170128.052618 release-keys"
