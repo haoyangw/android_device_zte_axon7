@@ -21,6 +21,12 @@
 # definition file).
 #
 
+$(call inherit-product-if-exists, vendor/zte/axon7/axon7-vendor.mk)
+
+# setup dalvik vm configs.
+$(call inherit-product, vendor/extras/configs/phone-xxxhdpi-4096-dalvik-heap.mk)
+$(call inherit-product, vendor/extras/configs/phone-xxxhdpi-3072-hwui-memory.mk)
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     device/zte/axon7/overlay
@@ -71,10 +77,6 @@ PRODUCT_COPY_FILES += \
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
-
-# setup dalvik vm configs.
-$(call inherit-product, vendor/extras/configs/phone-xxxhdpi-4096-dalvik-heap.mk)
-$(call inherit-product, vendor/extras/configs/phone-xxxhdpi-3072-hwui-memory.mk)
 
 # First api level, device has been commercially launched
 PRODUCT_PROPERTY_OVERRIDES += \

@@ -15,12 +15,18 @@
 # limitations under the License.
 #
 
+# Sample: This is where we'd set a backup provider if we had one
+# $(call inherit-product, device/sample/products/backup_overlay.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
+
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
-$(call inherit-product, device/zte/axon7/aosp_axon7.mk)
 
 # Inherit some common DirtyUnicorns stuff.
 $(call inherit-product, vendor/du/config/common_full_phone.mk)
+
+# Inherit from hardware-specific part of the product configuration
+$(call inherit-product, device/zte/axon7/device.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := du_axon7
@@ -30,6 +36,11 @@ PRODUCT_MODEL := ZTE Axon 7
 PRODUCT_MANUFACTURER := ZTE
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME="P996A03_O" \
-    BUILD_FINGERPRINT="google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys" \
-    PRIVATE_BUILD_DESC="P996A03_O-user 8.0.0 OPR1.170623.032 61 release-keys"
+    PRODUCT_NAME="P996A01_N" \
+    BUILD_FINGERPRINT="ZTE/P996A01_N/ailsa_ii:7.0/NRD90M/20170128.052618:user/release-keys" \
+    PRIVATE_BUILD_DESC="P996A01_N-user 7.0 NRD90M 20170128.052618 release-keys"
+
+#PRODUCT_BUILD_PROP_OVERRIDES += \
+#    PRODUCT_NAME="P996A03_O" \
+#    BUILD_FINGERPRINT="google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys" \
+#    PRIVATE_BUILD_DESC="P996A03_O-user 8.0.0 OPR1.170623.032 61 release-keys"

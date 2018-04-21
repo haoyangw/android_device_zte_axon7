@@ -30,7 +30,7 @@ TARGET_BOARD_INFO_FILE ?= device/zte/axon7/board-info.txt
 TARGET_OTA_ASSERT_DEVICE := ailsa_ii,axon7
 
 # Use Snapdragon LLVM, if available
-TARGET_USE_SDCLANG := true
+#TARGET_USE_SDCLANG := true
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := ailsa_ii
@@ -74,6 +74,7 @@ TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 
 # Qualcomm support
 BOARD_USES_QCOM_HARDWARE := true
+TARGET_USES_QCOM_BSP := true
 
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-uart"
@@ -105,6 +106,11 @@ BOARD_SUPPORTS_SOUND_TRIGGER := true
 BOARD_USES_ALSA_AUDIO := true
 USE_CUSTOM_AUDIO_POLICY := 1
 USE_XML_AUDIO_POLICY_CONF := 1
+TARGET_USES_QCOM_MM_AUDIO := true
+
+# Audio/media
+TARGET_QCOM_AUDIO_VARIANT := caf-msm8996
+TARGET_QCOM_MEDIA_VARIANT := caf-msm8996
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(PLATFORM_PATH)/bluetooth
@@ -113,6 +119,7 @@ BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_QCOM := true
 QCOM_BT_USE_BTNV := true
 QCOM_BT_USE_SMD_TTY := true
+TARGET_QCOM_BLUETOOTH_VARIANT := caf-msm8996
 
 # Camera
 TARGET_USES_MEDIA_EXTENSIONS := true
@@ -138,6 +145,7 @@ TARGET_HW_DISK_ENCRYPTION := true
 
 # Display
 BOARD_USES_ADRENO := true
+TARGET_QCOM_DISPLAY_VARIANT := caf-msm8996
 TARGET_CONTINUOUS_SPLASH_ENABLED := true
 TARGET_USES_C2D_COMPOSITION := true
 TARGET_USES_GRALLOC1 := true
@@ -251,6 +259,9 @@ TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_NTFS_3G := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_NO_USB_STORAGE := true
+
+# for offmode charging
+BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"
 
 # inherit from the proprietary version
 -include vendor/zte/axon7/BoardConfigVendor.mk
